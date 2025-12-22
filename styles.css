@@ -129,6 +129,7 @@ section {
     font-size: 0.8rem;
     text-align: right;
     border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+    margin: 0;
 }
 
 .top-bar a {
@@ -144,6 +145,7 @@ header {
     top: 0;
     z-index: 1000;
     transition: var(--transition);
+    margin: 0;
 }
 
 header.scrolled {
