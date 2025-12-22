@@ -121,6 +121,16 @@ section {
     scroll-margin-top: 120px;
 }
 
+#contact-form {
+    scroll-margin-top: 130px;
+}
+
+@media (max-width: 768px) {
+    #contact-form {
+        scroll-margin-top: 90px;
+    }
+}
+
 /* Header & Navigation */
 header {
     background: var(--white);

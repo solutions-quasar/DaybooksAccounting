@@ -145,8 +145,8 @@
                             style="margin-top: 4rem; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 3rem;"
                             data-animate></div>
                     </div>
-                    <div data-animate>
-                        <form name="contact" method="POST" data-netlify="true">
+                    <div data-animate class="card">
+                        <form id="contact-form" name="contact-page" method="POST" data-netlify="true">
                             <div class="form-group">
                                 <label for="name">Name</label>
                                 <input type="text" id="name" name="name" required placeholder="Your full name">
@@ -210,7 +210,7 @@
                 </path>
             </svg>
         </a>
-        <a href="#contact" class="fab message" title="Send Message">
+        <a href="#contact-form" class="fab message" title="Send Message">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                 stroke-linejoin="round">
                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
