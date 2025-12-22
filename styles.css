@@ -125,10 +125,10 @@ section {
 .top-bar {
     background: var(--white);
     color: var(--primary);
-    padding: 0.4rem 0;
+    padding: 0.2rem 0;
     font-size: 0.8rem;
     text-align: right;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.02);
 }
 
 .top-bar a {
@@ -155,7 +155,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.75rem 0;
+    padding: 0.4rem 0;
 }
 
 .logo-wrap,
@@ -186,8 +186,7 @@ nav {
 }
 
 .logo-img {
-    height: 80px;
-    /* Bigger Logo */
+    height: 60px;
     width: auto;
     object-fit: contain;
 }
