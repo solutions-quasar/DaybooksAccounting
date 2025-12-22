@@ -122,23 +122,6 @@ section {
 }
 
 /* Header & Navigation */
-.top-bar {
-    background: var(--white);
-    color: var(--primary);
-    padding: 0.2rem 0;
-    font-size: 0.8rem;
-    text-align: right;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.02);
-    margin: 0;
-}
-
-.top-bar a {
-    color: var(--primary);
-    text-decoration: none;
-    margin-left: 2rem;
-    font-weight: 500;
-}
-
 header {
     background: var(--white);
     position: sticky;
@@ -245,6 +228,11 @@ nav ul li a::after {
     height: 1px;
     background: var(--secondary);
     transition: var(--transition);
+}
+
+nav ul li.nav-phone a {
+    color: var(--secondary);
+    font-weight: 700;
 }
 
 nav ul li a:hover::after {

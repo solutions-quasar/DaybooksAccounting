@@ -123,15 +123,6 @@ function renderContent() {
     const yearEl = document.getElementById('year');
     if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-    // Top Bar & Footer NAP
-    const napElements = document.querySelectorAll('.nap-info');
-    napElements.forEach(el => {
-        el.innerHTML = `
-            <a href="tel:${CONFIG.business.phone}">${CONFIG.business.phone}</a> | 
-            <a href="mailto:${CONFIG.business.email}">${CONFIG.business.email}</a>
-        `;
-    });
-
     // Business Name
     const nameElements = document.querySelectorAll('.business-name');
     nameElements.forEach(el => el.textContent = CONFIG.business.name);
