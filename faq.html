@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | Daybooks Accounting</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <meta name="description"
+        content="Common questions about bookkeeping, payroll, and tax services for small businesses.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="container nap-info"></div>
+    </div>
+
+    <header>
+        <div class="container nav-container">
+            <nav>
+                <a href="index.html" class="logo-container">
+                    <!-- Injected by script.js -->
+                </a>
+                <div class="menu-toggle">☰</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <center>
+                <h2>Frequently Asked Questions</h2>
+            </center>
+            <div id="faq-list" style="max-width: 800px; margin: 3rem auto;">
+                <!-- Injected by script.js -->
+            </div>
+            <div style="text-align: center;">
+                <p>Have another question? <a href="contact.html" class="text-link">Contact us here</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-logo business-name">Daybooks Accounting</div>
+                    <p>Getting you from chaos to clarity with strength in numbers.</p>
+                </div>
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Connect</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.facebook.com/daybooks/" target="_blank">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy">
+                &copy; <span id="year"></span> <span class="business-name"></span>. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- Floating Mobile Actions -->
+    <div class="mobile-fabs">
+        <a href="tel:506-875-5108" class="fab call" title="Call Us">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+            </svg>
+        </a>
+        <a href="contact.html" class="fab message" title="Send Message">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

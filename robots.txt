@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://daybooks-accounting.netlify.app/sitemap.xml
